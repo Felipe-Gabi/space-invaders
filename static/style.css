@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#game-area {
+    position: relative;
+    width: 800px;
+    height: 600px;
+    background-color: black;
+    border: 2px solid white;
+    overflow: hidden;
+}
+
+#player {
+    position: absolute;
+    bottom: 20px;
+    left: 370px;
+    width: 60px;
+    height: 20px;
+    background-color: blue;
+}
+
+.bullet {
+    position: absolute;
+    width: 5px;
+    height: 10px;
+    background-color: red;
+}
+
+.alien {
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    background-color: green;
+}
